@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="stylesheet icon" href="./img/favicon.png" />
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- costom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Palash Deb || Parsonal Website</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="fa-solid fa-code nav__logo-icon"></i> Palash
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <!-- theme change button -->
+          <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-list"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <!-- home -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__img-bg">
+            <img src="./img/home2.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a href="#" target="_blank" class="home__social-link">Facebook</a>
+            <a href="#" target="_blank" class="home__social-link">Linkedin</a>
+            <a href="#" target="_blank" class="home__social-link">Github</a>
+          </div>
+
+          <div class="home__data">
+            <!-- <span class="home__title">Hello, I'm</span> -->
+            <h1 class="home__name">PALASH DEB</h1>
+            <span class="home__developer"
+              >I am a <span class="type"></span>
+            </span>
+            <p class="home__description">
+              I always try to improve in this sector because creating a website
+              is no longer a profession but an addiction for me.
+            </p>
+
+            <div class="home__btns">
+              <a href="#" class="button button--gray button--small">contact</a>
+              <button class="button home__button">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <div class="about__data">
+            <h2 class="section__title about__section-title">about me</h2>
+            <h1 class="about__title">Hello, I'm Palash.</h1>
+            <p class="about__description">
+              I am a Frontend Web Developer. I always try to improve in this
+              sector because creating a website is no longer a profession but an
+              addiction for me. I try to learn something new which makes me more
+              interested in working.
+            </p>
+          </div>
+
+          <div class="about__images">
+            <img src="./img/story.jpg" alt="" class="about__img" />
+            <div class="about__square"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+      <section class="portfolio section container" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+
+        <div class="portfolio__container grid">
+          <article class="portfolio__card">
+            <span class="portfolio__tag">New</span>
+            <img src="./img/1.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Online Lerning Website</h3>
+            </div>
+            <button class="button portfolio__button">VIEW DETAILS</button>
+            <!-- Portfolio Popup Item -->
+            <div class="portfolio__item-details">
+              <div class="portfolio__description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus ut exercitationem doloremque eaque voluptatibus
+                  quaerat illo adipisci tenetur, iusto laboriosam iste odit
+                  praesentium voluptatem possimus nesciunt, qui officia
+                  consectetur labore? Hic a amet debitis expedita dolore
+                  assumenda sapiente vel sit.
+                </p>
+              </div>
+              <div class="portfolio__general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2020</span></li>
+                  <li>Technologies Used - <span>HTML, CSS</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="#" target="_blank">www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio__card">
+            <span class="portfolio__tag">New</span>
+            <img src="./img/2.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">e-Comache Website Design</h3>
+            </div>
+            <button class="button portfolio__button">VIEW DETAILS</button>
+            <!-- Portfolio Popup Item -->
+            <div class="portfolio__item-details">
+              <div class="portfolio__description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus ut exercitationem doloremque eaque voluptatibus
+                  quaerat illo adipisci tenetur, iusto laboriosam iste odit
+                  praesentium voluptatem possimus nesciunt, qui officia
+                  consectetur labore? Hic a amet debitis expedita dolore
+                  assumenda sapiente vel sit.
+                </p>
+              </div>
+              <div class="portfolio__general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2022</span></li>
+                  <li>Technologies Used - <span>HTML, CSS</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="#" target="_blank">www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio__card">
+            <span class="portfolio__tag">New</span>
+            <img src="./img/3.jpg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">App Template Website Design</h3>
+            </div>
+            <button class="button portfolio__button">VIEW DETAILS</button>
+            <!-- Portfolio Popup Item -->
+            <div class="portfolio__item-details">
+              <div class="portfolio__description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus ut exercitationem doloremque eaque voluptatibus
+                  quaerat illo adipisci tenetur, iusto laboriosam iste odit
+                  praesentium voluptatem possimus nesciunt, qui officia
+                  consectetur labore? Hic a amet debitis expedita dolore
+                  assumenda sapiente vel sit.
+                </p>
+              </div>
+              <div class="portfolio__general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2020</span></li>
+                  <li>Technologies Used - <span>HTML, CSS</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="#" target="_blank">www.domain.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- testimonial -->
+      <section class="testimonial section container">
+        <div class="testimonial__container grid">
+          <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p class="testimonial__description">
+                  Best student I have seen in last 100 to 150 students. Because
+                  Palash has a lot of patience to work, ability to finish work
+                  on time and willingness to learn new things. That will take
+                  him far.
+                </p>
+                <h3 class="testimonial__date">March 27. 2021</h3>
+
+                <div class="testimonial__perfil">
+                  <img
+                    src="./img/testimonial1.jpg"
+                    alt=""
+                    class="testimonial__perfil-img"
+                  />
+
+                  <div class="testimonial__perfil-data">
+                    <span class="testimonial__perfil-name">Jhankar Mahbub</span>
+                    <span class="testimonial__perfil-detail"
+                      >CEO of Programming Hero</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <p class="testimonial__description">
+                  First of all, Palash is a very good man. I enjoyed working
+                  with him. In my opinion, his best aspect is to finish the work
+                  on time.
+                </p>
+                <h3 class="testimonial__date">October 05. 2021</h3>
+
+                <div class="testimonial__perfil">
+                  <img
+                    src="./img/testimonial2.jpg"
+                    alt=""
+                    class="testimonial__perfil-img"
+                  />
+
+                  <div class="testimonial__perfil-data">
+                    <span class="testimonial__perfil-name">Eng. Nazir Mia</span>
+                    <span class="testimonial__perfil-detail"
+                      >CEO of Build Expert Limited</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+          </div>
+
+          <div class="testimonial__images">
+            <div class="testimonial__square"></div>
+            <img src="./img/test.jpg" alt="" class="testimonial__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- blog -->
+      <section class="blog section container" id="blog">
+        <h2 class="section__title">blog</h2>
+
+        <div class="blog__container">
+          <div class="swiper blog-swiper">
+            <div class="swiper-wrapper">
+              <article id="blog-btn" class="blog__card blog__btn swiper-slide">
+                <span class="blog__tag">New</span>
+                <img src="./img/blog1.jpeg" alt="" class="blog__img" />
+                <div class="blog__data">
+                  <h3 class="blog__title">
+                    What is Git and why should you use Git?
+                  </h3>
+                  <p class="blog__description">
+                    Git is a free and open source version control system through
+                    which we can keep any code or work in one place, see any
+                    previous code if necessary, delete code, etc. Let's be a
+                    little more clear. Suppose you write 1 code....
+                  </p>
+                </div>
+                <button class="button blog__button">Learn More ...</button>
+                <!-- blog Popup Item -->
+                <div class="blog__item-details">
+                  <div class="blog__story">
+                    <p>
+                      Git is a free and open source version control system
+                      through which we can keep any code or work in one place,
+                      see any previous code if necessary, delete code, etc.
+                      Let's be a little more clear. Suppose you write 1 code
+                      today and 1 code tomorrow. If after 3 days you think, no I
+                      need that first day code. Generally speaking, can you
+                      figure out who was working on the same file first? No, I
+                      can't. But if we use Git we can easily extract any code
+                      any day. It means that this git is a tool for Version
+                      Control System of all our codes.
+                    </p>
+                    <br />
+                    <p>
+                      Why use Git?
+                      <br />
+                      Usually for a big project we have many developers working
+                      together and each one is given different tasks. Now, due
+                      to many developers working on the same project, so that
+                      there are no conflicts in the project, we use Git so that
+                      one person's code does not get mixed with another
+                      person's. It means that each person will work in a
+                      separate branch for his own work, due to which there will
+                      be no conflict. We will discuss about Branch below.
+                      Besides, the requirements of a project often change. For
+                      example, at the beginning of the project, there were these
+                      requirements, and after 7 days, another requirement, and
+                      then another requirement, but we wrote the code for each
+                      requirement. Using Git we can easily go back to any
+                      previous code. Again we work on several projects at the
+                      same time. In this case, Git plays a very important role
+                      for everyone's version control of the project.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="blog__card blog__btn swiper-slide">
+                <span class="blog__tag">New</span>
+                <img src="./img/blog2.jpeg" alt="" class="blog__img" />
+                <div class="blog__data">
+                  <h3 class="blog__title">
+                    What is JavaScript and its introduction.
+                  </h3>
+                  <p class="blog__description">
+                    JavaScript is a scripting or programming language that is
+                    commonly used in any website. This language is also called
+                    client-side scripting language because its source codes are
+                    processed through the client's web browser....
+                  </p>
+                </div>
+                <button class="button blog__button">Learn More ...</button>
+                <!-- blog Popup Item -->
+                <div class="blog__item-details">
+                  <div class="blog__story">
+                    <p>
+                      JavaScript is a scripting or programming language that is
+                      commonly used in any website. This language is also called
+                      client-side scripting language because its source codes
+                      are processed through the client's web browser. <br />
+
+                      No web server is required to write or run the JavaScript
+                      language. <br />
+
+                      Server-side scripting languages ​​such as PHP and ASP
+                      allow you to write JavaScript code directly into the HTML
+                      code of your webpage. However, after writing the code of
+                      server-side scripting languages, when we see it in a Web
+                      Browser, it shows in an HTML form, that means if you look
+                      at the source code of your website, you can only see the
+                      HTML code, but in the case of JavaScript, it is a little
+                      different, it means that you can see what you wrote. .
+                      JavaScript was originally called LiveScript which was
+                      created in 1995 but later Netscape changed the name to
+                      JavaScript.
+                    </p>
+                    <br />
+                    <p>
+                      Advantages of JavaScript <br />
+                      There are some advantages to using JavaScript. For
+                      example-<br />
+                      1. The communication of your Web Application with the
+                      server is less - means through JavaScript you can validate
+                      the data of a form before sending it to the server whether
+                      all the data of this form is filled or not. This will
+                      reduce the traffic of your server which means the
+                      communication with the server will be less.<br />
+                      2. You can instantly show any message to the user. Means
+                      if the user forgets to fill something in the website you
+                      can immediately show a message. You don't have to wait for
+                      the entire page to load.<br />
+                      3. With JavaScript, you can create different interfaces
+                      that will work on different types of JavaScript events. 4.
+                      You can also create drag-and-drop components or various
+                      sliders with this JavaScript.<br />
+                      5. You can change the content of an HTML document through
+                      JavaScript.<br />
+                      6. You can change the value of HTML Attribute through
+                      JavaScript.<br />
+                      7. You can change the design that we design with CSS with
+                      JavaScript.<br />
+                      8. Easily show or hide any HTML Elements.<br />
+                      9. Can send request to any remote server, can download or
+                      upload any file (through AJAX).<br />
+                      10. And there are many more benefits...
+                    </p>
+                    <br />
+                    <p>
+                      Some Obligations of JavaScript <br />
+                      Like every programming language, JavaScript also has some
+                      restrictions that mean what you can't do with JavaScript.
+                      Let's find out a few-<br />
+                      1. You cannot read and write files through JavaScript.
+                      This feature is not available for security.<br />
+                      2. Cannot use JavaScript for any network related
+                      application.<br />
+                      3. There is no multi-threading or multiprocessor
+                      capability feature in JavaScript.
+                    </p>
+                    <br />
+                    <p>
+                      JavaScript Engine <br />
+                      At present, JavaScript can only be executed in the
+                      browser, but it can also be executed on any server or any
+                      other device. And for that only a JavaScript Engine is
+                      needed.<br />
+                      Web browsers already have a JavaScript engine, which is
+                      also called a JavaScript virtual machine. All these
+                      JavaScript Engines have different names in different Web
+                      Browsers. For example-<br />
+                      1. V8 (for Chrome and Opera browsers).<br />
+                      2. SpiderMonkey (for Firefox browser).<br />
+                      3. Trident and Chakra (for IE browser), ChakraCore (for
+                      Microsoft Edge browser).<br />
+                      4. Nitro and SquirrelFish (for Safari browser).
+                    </p>
+                    <br />
+                    <p>
+                      How does the JavaScript Engine work? <br />
+                      To tell how JavaScript Engine works, a lot needs to be
+                      said, but in general it can be said like this – <br />
+                      1. JavaScript Engine will first read your JavaScript code
+                      means parse it.<br />
+                      2. Then your JavaScript code will be changed and compiled
+                      into a machine language.<br />
+                      3. Then this machine language will work for you.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="blog__card blog__btn swiper-slide article">
+                <span class="blog__tag">New</span>
+                <img src="./img/blog3.jpeg" alt="" class="blog__img" />
+                <div class="blog__data">
+                  <h3 class="blog__title">What is HTML? How does HTML work?</h3>
+                  <p class="blog__description">
+                    HTML is a markup language with which you can create a web
+                    site. The full meaning of HTML is: HyperText Markup
+                    Language.Here HyperText means a method by which you can go
+                    from one website to another on the web....
+                  </p>
+                </div>
+                <button class="button blog__button">Learn More ...</button>
+                <!-- blog Popup Item -->
+                <div class="blog__item-details">
+                  <div class="blog__story">
+                    <p>
+                      HTML is a markup language with which you can create a web
+                      site. The full meaning of HTML is: HyperText Markup
+                      Language.Here HyperText means a method by which you can go
+                      from one website to another on the web. And to go from one
+                      website to another, you have to click on any text. And
+                      this clicked text is called hyperlinks. Which will take
+                      you to another website. Markup is the HTML tags that you
+                      write in your text files. With these tags you determine
+                      how the text of your file will look like. For example:
+                      Bold or Italic etc.
+                    </p>
+                    <br />
+                    <p>
+                      How does HTML work? <br />
+                      Basically HTML is made up of some short codes which are
+                      written in a file and these short codes are called tags.
+                      Then save this file with a name and file that you can
+                      later view with any browser. For example, with Internet
+                      Explorer or Chrome browser. When you open this file in a
+                      browser, the browser will read the codes in your file and
+                      process it and show you a text version of it. Upteen can
+                      write these tags in any code editor like Nodepad++,
+                      Sublime Text 3, Atom etc.
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="blog__card blog__btn swiper-slide article">
+                <span class="blog__tag">New</span>
+                <img src="./img/blog4.png" alt="" class="blog__img" />
+                <div class="blog__data">
+                  <h3 class="blog__title">What is CSS? What is CSS?</h3>
+                  <p class="blog__description">
+                    CSS stands for Cascading Style Sheets CSS and is a design
+                    language. Means we use this CSS to work related to website
+                    design. Through this we determine the style of any HTML
+                    document of our website. For example, what....
+                  </p>
+                </div>
+                <button class="button blog__button">Learn More ...</button>
+                <!-- blog Popup Item -->
+                <div class="blog__item-details">
+                  <div class="blog__story">
+                    <p>
+                      CSS stands for Cascading Style Sheets CSS and is a design
+                      language. Means we use this CSS to work related to website
+                      design. Through this we determine the style of any HTML
+                      document of our website. For example, what will a box look
+                      like, what will its color be, what will be its length or
+                      width etc. We even use CSS to dictate how each HTML tag
+                      will look on our website. <br />
+                      When we create a website, we first write the markup or
+                      HTML code. But if no style is given in these HTML codes
+                      then the HTML file does not get fullness or it is not like
+                      our design or it will look like the way the HTML codes are
+                      written. But if we want the HTML file to look like our
+                      design then we must use CSS. As a result, we will be able
+                      to define the color, font size, etc. of any tag as
+                      desired. We can use CSS to tell how much space a part will
+                      take up or in which direction the part will show, etc. For
+                      example, suppose we want to build a house. For that we
+                      need bricks, sand, cement, rods. These bricks, sand,
+                      cement, rods etc. are the HTML tags through which we can
+                      build the structure of our house. But if we want to have
+                      this color on this side of the house, there will be a
+                      picture on the wall, there will be a border around the
+                      picture, one side of the whole house will be blue color
+                      etc. This is the main work of CSS.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact section container" id="contact">
+        <div class="contact__bg grid">
+          <div class="contact__info">
+            <h2 class="contact__title">CONTACT NOW</h2>
+
+            <div class="contact__text">
+              <i class="fa-solid fa-location-dot contact__text-icon"></i>
+              <h3 class="contact__text-title">Address</h3>
+              <p class="contact__text-p">
+                Mirpur 2, Dhaka 1204,<br />
+                Bangladesh.
+              </p>
+            </div>
+
+            <div class="contact__text">
+              <i class="fa-solid fa-phone contact__text-icon"></i>
+              <h3 class="contact__text-title">Phone</h3>
+              <p class="contact__text-p">
+                +880 1738 357489<br />
+                +880 1701 028550
+              </p>
+            </div>
+
+            <div class="contact__text">
+              <i class="fa-solid fa-envelope contact__text-icon"></i>
+              <h3 class="contact__text-title">Email</h3>
+              <p class="contact__text-p">
+                contact@palashdeb.com<br />
+                palash.bbaria@gmail.com
+              </p>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="text" placeholder="Email" class="contact__input" />
+            <textarea
+              placeholder="Message"
+              class="contact__textarea"
+            ></textarea>
+            <button class="button">SUBMIT NOW</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
+          <ul class="footer__list">
+            <li>Mirpur 2,</li>
+            <li>Dhaka, Bangladesh.</li>
+            <li>+880 1701 028550</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">About Us</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Support</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Team Support</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">About Me</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Copy Right</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Project</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">React.js Project</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Front-end Project</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Back-end Project</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">MERN Stack Project</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Social</h3>
+          <ul class="footer__social">
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; Palash Deb. All rigths reserved</span>
+    </footer>
+
+    <!-- Portfolio Item Popup Start -->
+    <div class="portfolio__popup">
+      <div class="pp__inner">
+        <div class="pp__content">
+          <div class="pp__header">
+            <button type="button" class="button pp__close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp__thumbnail">
+              <img src="img/1.jpg" alt="pp-thumbnail" />
+              <h3></h3>
+            </div>
+            <div class="pp__body"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Popup End -->
+
+    <!-- blog Item Popup Start -->
+    <div class="blog__popup">
+      <div class="blog__inner">
+        <div class="blog__content">
+          <div class="blog__header">
+            <button type="button" class="button blog__close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="blog__thumbnail">
+              <img src="img/1.jpg" alt="blog-thumbnail" />
+              <h3></h3>
+            </div>
+            <div class="blog__body"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- blog Item Popup End -->
+
+    <!-- scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- swiper js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- typed js -->
+    <script src="./js/typed.js"></script>
+
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
